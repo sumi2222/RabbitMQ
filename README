@@ -1,0 +1,5 @@
+ Working Rabbit MQ 
+Please run the following commands into 3 separate $prompt terminal 
+Command 1 :: "brew services start rabbitmq"
+Command 2 :: "java -jar demo.gmdb.sumita.mqsender-0.0.1-SNAPSHOT.jar --spring.profiles.active=hello-world,receiver"
+Command 3 :: "java -jar demo.gmdb.sumita.mqsender-0.0.1-SNAPSHOT.jar --spring.profiles.active=hello-world,sender"
